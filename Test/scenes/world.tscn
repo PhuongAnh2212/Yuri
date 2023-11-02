@@ -7,7 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://bk8lio5mjju88" path="res://arts/T1 - House Tileset.png" id="4_bvyhf"]
 [ext_resource type="Texture2D" uid="uid://bley4x5afpxv5" path="res://arts/taragonia_bw_mix_by_phyromatical_d76ewjp-pre.png" id="4_chjr8"]
 [ext_resource type="Texture2D" uid="uid://57rcejr8vvia" path="res://arts/house_asset_1.png" id="5_6yxss"]
-[ext_resource type="PackedScene" uid="uid://duujabkwt5lqy" path="res://enemies/ninja.tscn" id="8_jhwp0"]
+[ext_resource type="PackedScene" uid="uid://duujabkwt5lqy" path="res://enemies/enemy.tscn" id="8_jhwp0"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_uqcwy"]
 texture = ExtResource("2_xmvpw")
@@ -9695,14 +9695,15 @@ layer_2/tile_data = PackedInt32Array(4259921, 1835011, 9, 4325457, 1835011, 10, 
 
 [node name="player" parent="TileMap/TileMap" instance=ExtResource("1_t4brd")]
 z_index = 1
-position = Vector2(1225, 952)
+position = Vector2(1992, 796)
+up_direction = Vector2(0.948683, -0.316228)
 platform_floor_layers = 4294967294
 platform_wall_layers = 1
 
 [node name="Camera2D" type="Camera2D" parent="TileMap/TileMap/player"]
 
 [node name="ninja" parent="TileMap/TileMap" instance=ExtResource("8_jhwp0")]
-position = Vector2(1257, 1280)
+position = Vector2(2279, 655)
 
 [node name="Marker2D" type="Marker2D" parent="TileMap/TileMap/ninja"]
 position = Vector2(160, 64)

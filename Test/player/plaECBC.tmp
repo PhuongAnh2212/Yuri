@@ -5,8 +5,7 @@
 [ext_resource type="PackedScene" uid="uid://c8v1vlaoii1k" path="res://player/sword.tscn" id="3_euq12"]
 
 [sub_resource type="Animation" id="Animation_tl5pr"]
-length = 0.6
-step = 0.2
+length = 0.001
 
 [sub_resource type="Animation" id="Animation_i0nyj"]
 resource_name = "walkBack"
