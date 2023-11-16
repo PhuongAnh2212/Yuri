@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bjtkalqqut6vj"
-path="res://.godot/imported/Frait train assets.png-07e4234d877fc3655ff44cb28b4b2f1b.ctex"
+uid="uid://c40gy06e8lqg2"
+path="res://.godot/imported/roads2W.png-bf81da956cb2c22c098dd33e52253e99.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://arts/Frait train assets.png"
-dest_files=["res://.godot/imported/Frait train assets.png-07e4234d877fc3655ff44cb28b4b2f1b.ctex"]
+source_file="res://roads2W.png"
+dest_files=["res://.godot/imported/roads2W.png-bf81da956cb2c22c098dd33e52253e99.ctex"]
 
 [params]
 
