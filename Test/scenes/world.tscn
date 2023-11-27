@@ -1,4 +1,4 @@
-[gd_scene load_steps=35 format=3 uid="uid://tb6t4cv21o8v"]
+[gd_scene load_steps=37 format=3 uid="uid://tb6t4cv21o8v"]
 
 [ext_resource type="PackedScene" uid="uid://ctkb0qycx8uir" path="res://player/player.tscn" id="1_t4brd"]
 [ext_resource type="Texture2D" uid="uid://du2w8oo0fgfgc" path="res://arts/Grass.png" id="2_xmvpw"]
@@ -16,6 +16,8 @@
 [ext_resource type="Texture2D" uid="uid://b0u83ivnitu64" path="res://arts/TX Tileset Grass.png" id="11_n72lp"]
 [ext_resource type="PackedScene" uid="uid://c28cx1wf2x81y" path="res://npc/bartender.tscn" id="15_iiqeu"]
 [ext_resource type="Script" path="res://npc/bartender.gd" id="16_pl1nx"]
+[ext_resource type="PackedScene" uid="uid://cus7ac3fojdys" path="res://npc/anh_long.tscn" id="17_j5wgc"]
+[ext_resource type="PackedScene" uid="uid://bx8lnwhp8txcq" path="res://npc/thanh_mai.tscn" id="18_n2cpw"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_uqcwy"]
 texture = ExtResource("2_xmvpw")
@@ -29585,3 +29587,9 @@ layer_0/tile_data = PackedInt32Array(5832771, 196608, 2, 5767235, 196608, 2, 576
 [node name="bartender" parent="." instance=ExtResource("15_iiqeu")]
 position = Vector2(1272, 832)
 script = ExtResource("16_pl1nx")
+
+[node name="anh-long" parent="." instance=ExtResource("17_j5wgc")]
+position = Vector2(1216, 2112)
+
+[node name="thanh_mai" parent="." instance=ExtResource("18_n2cpw")]
+position = Vector2(728, 2112)

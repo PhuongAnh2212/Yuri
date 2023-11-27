@@ -3,3 +3,7 @@ res://npc/bartender.tscn
 res://npc/bartender.gd
 res://npc/anh_long.tscn
 res://npc/anh_long.gd
+res://thanh_mai.gd
+res://npc/thanh_mai.tscn
+res://title screen/title_screen.tscn
+res://title screen/title_screen.gd
