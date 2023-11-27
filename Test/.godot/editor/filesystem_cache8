@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1701085660
+::res://::1701090145
 icon.svg::CompressedTexture2D::5140637267571475186::1698091515::1701017636::1::::<><>::
 thanh_mai.gd::GDScript::-1::1701079934::0::1::::<>CharacterBody2D<>::
 TX Props.png::CompressedTexture2D::6428452000721822599::1700835475::1700835475::1::::<><>::
@@ -172,11 +172,14 @@ thanh_mai.tscn::PackedScene::4069580822546751224::1701084116::0::1::::<><>::res:
 ::res://player/::1701068933
 player.gd::GDScript::-1::1701068933::0::1::::<>CharacterBody2D<>::
 player.tscn::PackedScene::6127179413461639337::1701068933::0::1::::<><>::res://player/player.gd<>uid://ctd80abodw34k
-::res://scenes/::1701088504
-world.tscn::PackedScene::1337570090994655695::1701088504::0::1::::<><>::uid://ctkb0qycx8uir::::res://player/player.tscn<>uid://du2w8oo0fgfgc::::res://arts/Grass.png<>uid://ctols0edprkkx::::res://arts/Hills.png<>uid://b08hh6to0eqrf::::res://arts/Atlas-Props.png<>uid://bk8lio5mjju88::::res://arts/T1 - House Tileset.png<>uid://bley4x5afpxv5::::res://arts/taragonia_bw_mix_by_phyromatical_d76ewjp-pre.png<>uid://b4kdjipf28wpi::::res://arts/Tilled Dirt.png<>uid://dv4nq1f6e4647::::res://arts/GRASS+.png<>uid://dhaehh2bfpw7::::res://arts/TX Props.png<>uid://b3b2mmi82ix7j::::res://arts/overworld_tileset_grass.png<>uid://dw8yoi2imfcys::::res://arts/house_asset5.png<>uid://cnu2yorc8tl0k::::res://arts/Water.png<>uid://mpone3bdn38b::::res://arts/Basic Grass Biom things 1.png<>uid://b0u83ivnitu64::::res://arts/TX Tileset Grass.png<>uid://c28cx1wf2x81y::::res://npc/bartender.tscn<>res://npc/bartender.gd<>uid://cus7ac3fojdys::::res://npc/anh_long.tscn<>uid://bx8lnwhp8txcq::::res://npc/thanh_mai.tscn
-::res://title screen/::1701089293
+::res://scenes/::1701090475
+world.tscn::PackedScene::1337570090994655695::1701090475::0::1::::<><>::uid://ctkb0qycx8uir::::res://player/player.tscn<>uid://du2w8oo0fgfgc::::res://arts/Grass.png<>uid://ctols0edprkkx::::res://arts/Hills.png<>uid://b08hh6to0eqrf::::res://arts/Atlas-Props.png<>uid://bk8lio5mjju88::::res://arts/T1 - House Tileset.png<>uid://bley4x5afpxv5::::res://arts/taragonia_bw_mix_by_phyromatical_d76ewjp-pre.png<>uid://b4kdjipf28wpi::::res://arts/Tilled Dirt.png<>uid://dv4nq1f6e4647::::res://arts/GRASS+.png<>uid://dhaehh2bfpw7::::res://arts/TX Props.png<>uid://b3b2mmi82ix7j::::res://arts/overworld_tileset_grass.png<>uid://dw8yoi2imfcys::::res://arts/house_asset5.png<>uid://cnu2yorc8tl0k::::res://arts/Water.png<>uid://mpone3bdn38b::::res://arts/Basic Grass Biom things 1.png<>uid://b0u83ivnitu64::::res://arts/TX Tileset Grass.png<>uid://c28cx1wf2x81y::::res://npc/bartender.tscn<>res://npc/bartender.gd<>uid://cus7ac3fojdys::::res://npc/anh_long.tscn<>uid://bx8lnwhp8txcq::::res://npc/thanh_mai.tscn
+::res://title screen/::1701090608
 ka1.ttf::FontFile::880485355741413893::1701089293::1701089293::1::::<><>::
-title_screen.gd::GDScript::-1::1701087932::0::1::::<>Control<>::
-title_screen.tscn::PackedScene::6777132636969461868::1701088504::0::1::::<><>::res://title screen/title_screen.gd<>uid://c5hy7rx2pgpau::::res://title screen/titlebg.jpg<>uid://b4n00foukorqr::::res://title screen/Your Final Quaso.png
+opening.mp3::AudioStreamMP3::6061852684100907623::1701090032::1701090037::1::::<><>::
+opening_music.tscn::PackedScene::3295175293842504084::1701090087::0::1::::<><>::uid://csmn3fibtcl4b::::res://title screen/opening.mp3
+select.mp3::AudioStreamMP3::4193117121408708511::1701090608::1701090608::1::::<><>::
+title_screen.gd::GDScript::-1::1701090470::0::1::::<>Control<>::
+title_screen.tscn::PackedScene::6777132636969461868::1701090475::0::1::::<><>::res://title screen/title_screen.gd<>uid://c5hy7rx2pgpau::::res://title screen/titlebg.jpg<>uid://b4n00foukorqr::::res://title screen/Your Final Quaso.png<>uid://msrp2y8p426d::::res://title screen/ka1.ttf<>uid://csmn3fibtcl4b::::res://title screen/opening.mp3
 titlebg.jpg::CompressedTexture2D::6894472603711452560::1701084616::1701084637::1::::<><>::
 Your Final Quaso.png::CompressedTexture2D::4450296914832256133::1701085658::1701085660::1::::<><>::
