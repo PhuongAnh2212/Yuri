@@ -1,2 +1,5 @@
 res://scenes/world.tscn
-res://player/player.tscn
+res://npc/bartender.tscn
+res://npc/bartender.gd
+res://npc/anh_long.tscn
+res://npc/anh_long.gd
