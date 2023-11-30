@@ -1,9 +1,9 @@
 [gd_resource type="Resource" script_class="QuestResource" load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://addons/quest_manager/QuestResource.gd" id="1_r1yig"]
+[ext_resource type="Script" path="res://addons/quest_manager/QuestResource.gd" id="1_2ilm7"]
 
 [resource]
-script = ExtResource("1_r1yig")
+script = ExtResource("1_2ilm7")
 quest_data = {
 "1e3cd6e59f": {
 "completed": false,
