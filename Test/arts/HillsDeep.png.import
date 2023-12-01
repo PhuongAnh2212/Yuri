@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bley4x5afpxv5"
-path="res://.godot/imported/taragonia_bw_mix_by_phyromatical_d76ewjp-pre.png-3345809ec42704e1a9c4e7e9a109f742.ctex"
+uid="uid://d34pcxx1yvgfr"
+path="res://.godot/imported/HillsDeep.png-11d7081ebabc4b58cb9566ad7ed9506b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://arts/taragonia_bw_mix_by_phyromatical_d76ewjp-pre.png"
-dest_files=["res://.godot/imported/taragonia_bw_mix_by_phyromatical_d76ewjp-pre.png-3345809ec42704e1a9c4e7e9a109f742.ctex"]
+source_file="res://arts/HillsDeep.png"
+dest_files=["res://.godot/imported/HillsDeep.png-11d7081ebabc4b58cb9566ad7ed9506b.ctex"]
 
 [params]
 
