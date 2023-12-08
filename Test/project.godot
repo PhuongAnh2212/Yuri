@@ -24,6 +24,11 @@ QuestManager="*res://addons/quest_manager/QuestManager.gd"
 DialogueManager="*res://addons/dialogue_manager/dialogue_manager.gd"
 global="*res://global.gd"
 
+[dialogue_manager]
+
+general/balloon_path="res://dialogue balloon/balloon.tscn"
+general/custom_test_scene_path="res://test_dialogue.tscn"
+
 [display]
 
 window/size/viewport_width=768

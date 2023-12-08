@@ -1,14 +1,15 @@
+Node2D
+TextureRect
+HBoxContainer
 CollisionShape2D
 Area2D
 TileMap
 Node
 AudioStreamPlayer2D
-HBoxContainer
 Label
 Button
 VBoxContainer
 MarginContainer
-TextureRect
 Control
 AnimatedSprite2D
 CharacterBody2D
