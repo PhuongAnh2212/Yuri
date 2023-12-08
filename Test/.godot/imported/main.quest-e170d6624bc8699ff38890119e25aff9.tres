@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuestResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://addons/quest_manager/QuestResource.gd" id="1_tjp1i"]
+
+[resource]
+script = ExtResource("1_tjp1i")
+quest_data = {}
+editor_data = {
+"connections_list": []
+}

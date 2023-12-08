@@ -1,0 +1,122 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_hjlyk"]
+
+[resource]
+script = ExtResource("1_hjlyk")
+using_states = PackedStringArray()
+titles = {
+"start": "3"
+}
+character_names = PackedStringArray("Thanh Mai", "Lam Anh", "Nathan")
+first_title = "3"
+lines = {
+"1": {
+"id": "1",
+"next_id": "3",
+"text": "start",
+"type": "title"
+},
+"10": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "10",
+"next_id": "end",
+"next_id_after": "11",
+"responses": PackedStringArray("10"),
+"tags": PackedStringArray(),
+"text": "End the conversation",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "End the conversation",
+"type": "response"
+},
+"11": {
+"character": "Nathan",
+"character_replacements": Array[Dictionary]([]),
+"id": "11",
+"next_id": "13",
+"tags": PackedStringArray(),
+"text": "For more information see the online documentation.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "For more information see the online documentation.",
+"type": "dialogue"
+},
+"13": {
+"id": "13",
+"is_snippet": false,
+"next_id": "end",
+"type": "goto"
+},
+"3": {
+"character": "Thanh Mai",
+"character_replacements": Array[Dictionary]([]),
+"id": "3",
+"next_id": "4",
+"tags": PackedStringArray(),
+"text": "Have you gotten used to your new job?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Have you gotten used to your new job?",
+"type": "dialogue"
+},
+"4": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "4",
+"next_id": "5",
+"next_id_after": "9",
+"responses": PackedStringArray("4", "6"),
+"tags": PackedStringArray(),
+"text": "First:",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "First:",
+"type": "response"
+},
+"5": {
+"character": "Lam Anh",
+"character_replacements": Array[Dictionary]([]),
+"id": "5",
+"next_id": "9",
+"parent_id": "4",
+"tags": PackedStringArray(),
+"text": "Getting the hang of it.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Getting the hang of it.",
+"type": "dialogue"
+},
+"6": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "6",
+"next_id": "7",
+"next_id_after": "9",
+"tags": PackedStringArray(),
+"text": "Second",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Second",
+"type": "response"
+},
+"7": {
+"character": "Lam Anh",
+"character_replacements": Array[Dictionary]([]),
+"id": "7",
+"next_id": "9",
+"parent_id": "6",
+"tags": PackedStringArray(),
+"text": "It’s not hard navigating in this town.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "It’s not hard navigating in this town.",
+"type": "dialogue"
+},
+"9": {
+"character": "Lam Anh",
+"character_replacements": Array[Dictionary]([]),
+"id": "9",
+"next_id": "10",
+"tags": PackedStringArray(),
+"text": "But I barely survive the small talk that comes with every order.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "But I barely survive the small talk that comes with every order.",
+"type": "dialogue"
+}
+}
+metadata/dialogue_manager_version = "2.30.0"
