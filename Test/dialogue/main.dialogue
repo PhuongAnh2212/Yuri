@@ -1,16 +1,46 @@
 ~ main
 
-if global.found_thanhmai == false
-	Thanh Mai: [[The ingredients just arrived. Help me unpack them later. Make sure you don’t break your 9-to-5 spine.|Breakfast was cold today. Totally ruined my day. Buy me some corn juice later to make up for it.|These are freshly baked croissants. Try some. Hope your taste hasn’t been ruined from all the convenience store food.]]
-		Have you gotten used to your new job?
-		- Getting the hang of it
-		- It’s not hard navigating in this town
-		- But I barely survive the small talk that comes with every order
-		Thanh Mai: Considering your personality, I’m not surprised
-		Thanh Mai: Let’s get going.
-		Thanh Mai: New order for Angelo. They’re the new bar owner in the town center.
-		set global.receive_thanhmai_item == true
-		- On my way!
-else: 
-	Thanh Mai: What are you waiting for?
+#Bar owner
+if global.found_bartender == false:
+	if global.met_bartender == false:
+		Angelo: Thank you, Lam Anh.
+		Angelo: You’re still looking down.
+		Angelo: Still the problem last time?
+		- Not exactly.
+			Lan Anh told Angelo about the promise.
+			Angelo: It’s been a while.
+			Angelo: The best you can do now is to apologize to her.
+			Angelo: You can’t expect them to forgive you.
+			Angelo: But it’s the best you can do.
+			- I’ll have to try my best then.
+				Angelo: That’s the spirit.	
+			- Can’t be the same person I was 10 years ago.
+				Angelo: That’s the spirit.
+			=> END
+		- I’ve found out the problem.
+			Lan Anh told Angelo about the promise.
+			Angelo: It’s been a while.
+			Angelo: The best you can do now is to apologize to her.
+			Angelo: You can’t expect them to forgive you.
+			Angelo: But it’s the best you can do.
+			- I’ll have to try my best then.
+				Angelo: That’s the spirit.
+			- Can’t be the same person I was 10 years ago.
+				Angelo: That’s the spirit.
+			=> END
+		- But I’m not sure how I can fix it.
+			Lan Anh told Angelo about the promise.
+			Angelo: It’s been a while.
+			Angelo: The best you can do now is to apologize to her.
+			Angelo: You can’t expect them to forgive you.
+			Angelo: But it’s the best you can do.
+			- I’ll have to try my best then.
+				Angelo: That’s the spirit.
+			- Can’t be the same person I was 10 years ago.
+				Angelo: That’s the spirit.
+			=> END
+	else: 
+		Angelo: St
+		=> END
+
 => END

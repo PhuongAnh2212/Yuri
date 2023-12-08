@@ -1,9 +1,9 @@
 da105cf5d3a45662f98f74fe8edd6d60
-::res://::1702024387
-global.gd::GDScript::-1::1702019980::0::1::::<>Node<>::
+::res://::1702030232
+global.gd::GDScript::-1::1702030027::0::1::::<>Node<>::
 icon.svg::CompressedTexture2D::5140637267571475186::1701265836::1701265836::1::::<><>::
-test_dialogue.gd::GDScript::-1::1702023618::0::1::::<>BaseDialogueTestScene<>::
-test_dialogue.tscn::PackedScene::166950782225814116::1702023782::0::1::::<><>::res://test_dialogue.gd
+test_dialogue.gd::GDScript::-1::1702026835::0::1::::<>BaseDialogueTestScene<>::
+test_dialogue.tscn::PackedScene::166950782225814116::1702030270::0::1::::<><>::res://test_dialogue.gd
 thanhmai-face.png::CompressedTexture2D::2866126107825132339::1702024387::1702024387::1::::<><>::
 thanh_mai.gd::GDScript::-1::1702020591::0::1::::<>CharacterBody2D<>::
 TX Props.png::CompressedTexture2D::6428452000721822599::1701265836::1701265836::1::::<><>::
@@ -174,31 +174,31 @@ TX Props.png::CompressedTexture2D::225024698073524512::1701265836::1701265836::1
 TX Tileset Grass.png::CompressedTexture2D::4184483445945552643::1701265836::1701265836::1::::<><>::
 Water.png::CompressedTexture2D::5728266869344538032::1701265836::1701265836::1::::<><>::
 Wood Bridge.png::CompressedTexture2D::1007207514787497192::1701265836::1701265836::1::::<><>::
-::res://dialogue/::1702021903
-main.dialogue::Resource::6027829666435371285::1702021903::1702021903::1::::<><>::res://addons/dialogue_manager/dialogue_resource.gd
-::res://dialogue balloon/::1702024288
-balloon.gd::GDScript::-1::1702024241::0::1::::<>CanvasLayer<>::
-balloon.tscn::PackedScene::2304415056852043862::1702024288::0::1::::<><>::res://dialogue balloon/balloon.gd<>uid://ckvgyvclnwggo::::res://addons/dialogue_manager/dialogue_label.tscn<>res://addons/dialogue_manager/dialogue_reponses_menu.gd
-small_balloon.tscn::PackedScene::1883859960814163368::1702022230::0::1::::<><>::res://dialogue balloon/balloon.gd<>uid://ckvgyvclnwggo::::res://addons/dialogue_manager/dialogue_label.tscn<>res://addons/dialogue_manager/dialogue_reponses_menu.gd
-::res://dream_room/::1702023782
-dream_room.tscn::PackedScene::253019507088719227::1702023782::0::1::::<><>::
-::res://npc/::1702023782
+::res://dialogue/::1702030221
+main.dialogue::Resource::6027829666435371285::1702030272::1702030272::1::::<><>::res://addons/dialogue_manager/dialogue_resource.gd
+::res://dialogue balloon/::1702030231
+balloon.gd::GDScript::-1::1702024645::0::1::::<>CanvasLayer<>::
+balloon.tscn::PackedScene::2304415056852043862::1702030231::0::1::::<><>::res://dialogue balloon/balloon.gd<>uid://ckvgyvclnwggo::::res://addons/dialogue_manager/dialogue_label.tscn<>res://addons/dialogue_manager/dialogue_reponses_menu.gd
+small_balloon.tscn::PackedScene::1883859960814163368::1702026321::0::1::::<><>::res://dialogue balloon/balloon.gd<>uid://ckvgyvclnwggo::::res://addons/dialogue_manager/dialogue_label.tscn<>res://addons/dialogue_manager/dialogue_reponses_menu.gd
+::res://dream_room/::1702030231
+dream_room.tscn::PackedScene::253019507088719227::1702030231::0::1::::<><>::
+::res://npc/::1702030232
 anh_long.gd::GDScript::-1::1701265836::0::1::::<>CharacterBody2D<>::
 anh_long.tscn::PackedScene::6215720132035920406::1701265836::0::1::::<><>::uid://d3n4kjcugsoyg
-bartender.gd::GDScript::-1::1701265836::0::1::::<>CharacterBody2D<>::
-bartender.tscn::PackedScene::6736228518599396760::1702020282::0::1::::<><>::uid://bo0jauihblni4::::res://arts/bartender-sprite.png
-thanh_mai.tscn::PackedScene::4069580822546751224::1702023782::0::1::::<><>::res://thanh_mai.gd<>uid://xbmuoeqjycg5::::res://arts/thanhmai-sprite.png
-::res://player/::1702023782
-player.gd::GDScript::-1::1702021382::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::6127179413461639337::1702023782::0::1::::<><>::res://player/player.gd<>uid://ctd80abodw34k::::res://arts/lamanh-sprite.png
-::res://scenes/::1702023782
-world.tscn::PackedScene::1337570090994655695::1702023782::0::1::::<><>::uid://ctkb0qycx8uir::::res://player/player.tscn<>uid://du2w8oo0fgfgc::::res://arts/Grass.png<>uid://ctols0edprkkx::::res://arts/Hills.png<>uid://b08hh6to0eqrf::::res://arts/Atlas-Props.png<>uid://bk8lio5mjju88::::res://arts/T1 - House Tileset.png<>uid://b4kdjipf28wpi::::res://arts/Tilled Dirt.png<>uid://dv4nq1f6e4647::::res://arts/GRASS+.png<>uid://dhaehh2bfpw7::::res://arts/TX Props.png<>uid://fk4ljitdutu4::::res://arts/roads2W.png<>uid://d34pcxx1yvgfr::::res://arts/HillsDeep.png<>uid://b3b2mmi82ix7j::::res://arts/overworld_tileset_grass.png<>uid://d2hk35oijuxtv::::res://arts/bakery.png<>uid://c2ds1j3o7818i::::res://arts/house-1.png<>uid://dw8yoi2imfcys::::res://arts/house_asset5.png<>uid://cnu2yorc8tl0k::::res://arts/Water.png<>uid://8umaowsbyefw::::res://arts/Cats.png<>uid://mpone3bdn38b::::res://arts/Basic Grass Biom things 1.png<>uid://dytwwxn35lv7x::::res://arts/house-2.png<>uid://b0u83ivnitu64::::res://arts/TX Tileset Grass.png<>uid://besd2xqnd7voo::::res://arts/house-3.png<>uid://c28cx1wf2x81y::::res://npc/bartender.tscn<>res://npc/bartender.gd<>uid://cus7ac3fojdys::::res://npc/anh_long.tscn<>uid://bx8lnwhp8txcq::::res://npc/thanh_mai.tscn
-::res://title screen/::1702023782
+bartender.gd::GDScript::-1::1702028147::0::1::::<>CharacterBody2D<>::
+bartender.tscn::PackedScene::6736228518599396760::1702030232::0::1::::<><>::uid://bo0jauihblni4::::res://arts/bartender-sprite.png
+thanh_mai.tscn::PackedScene::4069580822546751224::1702030231::0::1::::<><>::res://thanh_mai.gd<>uid://xbmuoeqjycg5::::res://arts/thanhmai-sprite.png
+::res://player/::1702030231
+player.gd::GDScript::-1::1702029202::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::6127179413461639337::1702030231::0::1::::<><>::res://player/player.gd<>uid://ctd80abodw34k::::res://arts/lamanh-sprite.png
+::res://scenes/::1702030231
+world.tscn::PackedScene::1337570090994655695::1702030231::0::1::::<><>::uid://ctkb0qycx8uir::::res://player/player.tscn<>uid://du2w8oo0fgfgc::::res://arts/Grass.png<>uid://ctols0edprkkx::::res://arts/Hills.png<>uid://b08hh6to0eqrf::::res://arts/Atlas-Props.png<>uid://bk8lio5mjju88::::res://arts/T1 - House Tileset.png<>uid://b4kdjipf28wpi::::res://arts/Tilled Dirt.png<>uid://dv4nq1f6e4647::::res://arts/GRASS+.png<>uid://dhaehh2bfpw7::::res://arts/TX Props.png<>uid://fk4ljitdutu4::::res://arts/roads2W.png<>uid://d34pcxx1yvgfr::::res://arts/HillsDeep.png<>uid://b3b2mmi82ix7j::::res://arts/overworld_tileset_grass.png<>uid://d2hk35oijuxtv::::res://arts/bakery.png<>uid://c2ds1j3o7818i::::res://arts/house-1.png<>uid://dw8yoi2imfcys::::res://arts/house_asset5.png<>uid://cnu2yorc8tl0k::::res://arts/Water.png<>uid://8umaowsbyefw::::res://arts/Cats.png<>uid://mpone3bdn38b::::res://arts/Basic Grass Biom things 1.png<>uid://dytwwxn35lv7x::::res://arts/house-2.png<>uid://b0u83ivnitu64::::res://arts/TX Tileset Grass.png<>uid://besd2xqnd7voo::::res://arts/house-3.png<>uid://c28cx1wf2x81y::::res://npc/bartender.tscn<>res://npc/bartender.gd<>uid://cus7ac3fojdys::::res://npc/anh_long.tscn<>uid://bx8lnwhp8txcq::::res://npc/thanh_mai.tscn
+::res://title screen/::1702030231
 ka1.ttf::FontFile::880485355741413893::1701265836::1701265836::1::::<><>::
 opening.mp3::AudioStreamMP3::6061852684100907623::1701265836::1701265836::1::::<><>::
 opening_music.tscn::PackedScene::3295175293842504084::1701265836::0::1::::<><>::uid://csmn3fibtcl4b
 select.mp3::AudioStreamMP3::4193117121408708511::1701265836::1701265836::1::::<><>::
 titlebg.jpg::CompressedTexture2D::6894472603711452560::1701265836::1701265836::1::::<><>::
 title_screen.gd::GDScript::-1::1701265836::0::1::::<>Control<>::
-title_screen.tscn::PackedScene::6777132636969461868::1702023782::0::1::::<><>::res://title screen/title_screen.gd<>uid://c5hy7rx2pgpau::::res://title screen/titlebg.jpg<>uid://b4n00foukorqr::::res://title screen/Your Final Quaso.png<>uid://msrp2y8p426d::::res://title screen/ka1.ttf<>uid://csmn3fibtcl4b::::res://title screen/opening.mp3
+title_screen.tscn::PackedScene::6777132636969461868::1702030231::0::1::::<><>::res://title screen/title_screen.gd<>uid://c5hy7rx2pgpau::::res://title screen/titlebg.jpg<>uid://b4n00foukorqr::::res://title screen/Your Final Quaso.png<>uid://msrp2y8p426d::::res://title screen/ka1.ttf<>uid://csmn3fibtcl4b::::res://title screen/opening.mp3
 Your Final Quaso.png::CompressedTexture2D::4450296914832256133::1701265836::1701265836::1::::<><>::
