@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://ctkb0qycx8uir"]
+[gd_scene load_steps=12 format=3 uid="uid://ctkb0qycx8uir"]
 
 [ext_resource type="Script" path="res://player/player.gd" id="1_ef0tf"]
 [ext_resource type="Texture2D" uid="uid://ctd80abodw34k" path="res://arts/lamanh-sprite.png" id="2_w15yk"]
@@ -116,6 +116,9 @@ _data = {
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_k4yka"]
 size = Vector2(34, 11)
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_dbl6f"]
+radius = 62.514
+
 [node name="player" type="CharacterBody2D"]
 y_sort_enabled = true
 texture_filter = 1
@@ -135,3 +138,11 @@ libraries = {
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(1, 42)
 shape = SubResource("RectangleShape2D_k4yka")
+
+[node name="detection_area" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="detection_area"]
+shape = SubResource("CircleShape2D_dbl6f")
+
+[connection signal="body_entered" from="detection_area" to="." method="_on_detection_area_body_entered"]
+[connection signal="body_exited" from="detection_area" to="." method="_on_detection_area_body_exited"]

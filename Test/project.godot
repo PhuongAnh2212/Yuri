@@ -22,6 +22,7 @@ config/icon="res://icon.svg"
 
 QuestManager="*res://addons/quest_manager/QuestManager.gd"
 DialogueManager="*res://addons/dialogue_manager/dialogue_manager.gd"
+global="*res://global.gd"
 
 [display]
 

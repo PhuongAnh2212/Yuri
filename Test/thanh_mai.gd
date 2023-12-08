@@ -7,3 +7,6 @@ func updateAnimation():
 
 func _physics_process(delta):
 	updateAnimation()
+
+func thanhmai():
+	pass

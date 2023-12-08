@@ -1,13 +1,16 @@
-~ start
+~ main
 
-Thanh Mai: Have you gotten used to your new job?
-- First:
-	Lam Anh: Getting the hang of it. 
-- Second
-	Lam Anh: It’s not hard navigating in this town.
-
-Lam Anh: But I barely survive the small talk that comes with every order.
-- End the conversation => END
-Nathan: For more information see the online documentation.
-
+if global.found_thanhmai == false
+	Thanh Mai: [[The ingredients just arrived. Help me unpack them later. Make sure you don’t break your 9-to-5 spine.|Breakfast was cold today. Totally ruined my day. Buy me some corn juice later to make up for it.|These are freshly baked croissants. Try some. Hope your taste hasn’t been ruined from all the convenience store food.]]
+		Have you gotten used to your new job?
+		- Getting the hang of it
+		- It’s not hard navigating in this town
+		- But I barely survive the small talk that comes with every order
+		Thanh Mai: Considering your personality, I’m not surprised
+		Thanh Mai: Let’s get going.
+		Thanh Mai: New order for Angelo. They’re the new bar owner in the town center.
+		set global.receive_thanhmai_item == true
+		- On my way!
+else: 
+	Thanh Mai: What are you waiting for?
 => END

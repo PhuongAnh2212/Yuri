@@ -1,121 +1,196 @@
 [gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
 
-[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_hjlyk"]
+[ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_2asbx"]
 
 [resource]
-script = ExtResource("1_hjlyk")
+script = ExtResource("1_2asbx")
 using_states = PackedStringArray()
 titles = {
-"start": "3"
+"main": "3"
 }
-character_names = PackedStringArray("Thanh Mai", "Lam Anh", "Nathan")
+character_names = PackedStringArray("Thanh Mai")
 first_title = "3"
 lines = {
 "1": {
 "id": "1",
 "next_id": "3",
-"text": "start",
+"text": "main",
 "type": "title"
 },
 "10": {
-"character": "",
+"character": "Thanh Mai",
 "character_replacements": Array[Dictionary]([]),
 "id": "10",
-"next_id": "end",
-"next_id_after": "11",
-"responses": PackedStringArray("10"),
+"next_id": "11",
+"parent_id": "6",
 "tags": PackedStringArray(),
-"text": "End the conversation",
+"text": "Let’s get going.",
 "text_replacements": Array[Dictionary]([]),
-"translation_key": "End the conversation",
-"type": "response"
-},
-"11": {
-"character": "Nathan",
-"character_replacements": Array[Dictionary]([]),
-"id": "11",
-"next_id": "13",
-"tags": PackedStringArray(),
-"text": "For more information see the online documentation.",
-"text_replacements": Array[Dictionary]([]),
-"translation_key": "For more information see the online documentation.",
+"translation_key": "Let’s get going.",
 "type": "dialogue"
 },
+"11": {
+"character": "Thanh Mai",
+"character_replacements": Array[Dictionary]([]),
+"id": "11",
+"next_id": "12",
+"parent_id": "6",
+"tags": PackedStringArray(),
+"text": "New order for Angelo. They’re the new bar owner in the town center.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "New order for Angelo. They’re the new bar owner in the town center.",
+"type": "dialogue"
+},
+"12": {
+"id": "12",
+"mutation": {
+"expression": Array[Dictionary]([{
+"type": "variable",
+"value": "global"
+}, {
+"type": "dot"
+}, {
+"type": "variable",
+"value": "receive_thanhmai_item"
+}, {
+"type": "comparison",
+"value": "=="
+}, {
+"type": "variable",
+"value": "true"
+}])
+},
+"next_id": "13",
+"parent_id": "6",
+"type": "mutation"
+},
 "13": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
 "id": "13",
+"next_id": "9",
+"next_id_after": "",
+"parent_id": "6",
+"responses": PackedStringArray("13"),
+"tags": PackedStringArray(),
+"text": "On my way!",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "On my way!",
+"type": "response"
+},
+"14": {
+"id": "14",
+"next_conditional_id": "16",
+"next_id": "15",
+"next_id_after": "16",
+"type": "condition"
+},
+"15": {
+"character": "Thanh Mai",
+"character_replacements": Array[Dictionary]([]),
+"id": "15",
+"next_id": "16",
+"parent_id": "14",
+"tags": PackedStringArray(),
+"text": "What are you waiting for?",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "What are you waiting for?",
+"type": "dialogue"
+},
+"16": {
+"id": "16",
 "is_snippet": false,
 "next_id": "end",
 "type": "goto"
 },
 "3": {
-"character": "Thanh Mai",
-"character_replacements": Array[Dictionary]([]),
+"condition": {
+"expression": Array[Dictionary]([{
+"type": "variable",
+"value": "global"
+}, {
+"type": "dot"
+}, {
+"type": "variable",
+"value": "found_thanhmai"
+}, {
+"type": "comparison",
+"value": "=="
+}, {
+"type": "variable",
+"value": "false"
+}])
+},
 "id": "3",
+"next_conditional_id": "14",
 "next_id": "4",
-"tags": PackedStringArray(),
-"text": "Have you gotten used to your new job?",
-"text_replacements": Array[Dictionary]([]),
-"translation_key": "Have you gotten used to your new job?",
-"type": "dialogue"
+"next_id_after": "16",
+"type": "condition"
 },
 "4": {
-"character": "",
+"character": "Thanh Mai",
 "character_replacements": Array[Dictionary]([]),
 "id": "4",
-"next_id": "5",
-"next_id_after": "9",
-"responses": PackedStringArray("4", "6"),
+"next_id": "6",
+"parent_id": "3",
 "tags": PackedStringArray(),
-"text": "First:",
+"text": "[[The ingredients just arrived. Help me unpack them later. Make sure you don’t break your 9-to-5 spine.|Breakfast was cold today. Totally ruined my day. Buy me some corn juice later to make up for it.|These are freshly baked croissants. Try some. Hope your taste hasn’t been ruined from all the convenience store food.]]
+Have you gotten used to your new job?",
 "text_replacements": Array[Dictionary]([]),
-"translation_key": "First:",
-"type": "response"
-},
-"5": {
-"character": "Lam Anh",
-"character_replacements": Array[Dictionary]([]),
-"id": "5",
-"next_id": "9",
-"parent_id": "4",
-"tags": PackedStringArray(),
-"text": "Getting the hang of it.",
-"text_replacements": Array[Dictionary]([]),
-"translation_key": "Getting the hang of it.",
+"translation_key": "[[The ingredients just arrived. Help me unpack them later. Make sure you don’t break your 9-to-5 spine.|Breakfast was cold today. Totally ruined my day. Buy me some corn juice later to make up for it.|These are freshly baked croissants. Try some. Hope your taste hasn’t been ruined from all the convenience store food.]]
+Have you gotten used to your new job?",
 "type": "dialogue"
 },
 "6": {
 "character": "",
 "character_replacements": Array[Dictionary]([]),
 "id": "6",
-"next_id": "7",
+"next_id": "9",
 "next_id_after": "9",
+"parent_id": "3",
+"responses": PackedStringArray("6", "7", "8"),
 "tags": PackedStringArray(),
-"text": "Second",
+"text": "Getting the hang of it",
 "text_replacements": Array[Dictionary]([]),
-"translation_key": "Second",
+"translation_key": "Getting the hang of it",
 "type": "response"
 },
 "7": {
-"character": "Lam Anh",
+"character": "",
 "character_replacements": Array[Dictionary]([]),
 "id": "7",
 "next_id": "9",
+"next_id_after": "9",
 "parent_id": "6",
 "tags": PackedStringArray(),
-"text": "It’s not hard navigating in this town.",
+"text": "It’s not hard navigating in this town",
 "text_replacements": Array[Dictionary]([]),
-"translation_key": "It’s not hard navigating in this town.",
-"type": "dialogue"
+"translation_key": "It’s not hard navigating in this town",
+"type": "response"
+},
+"8": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "8",
+"next_id": "9",
+"next_id_after": "9",
+"parent_id": "6",
+"tags": PackedStringArray(),
+"text": "But I barely survive the small talk that comes with every order",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "But I barely survive the small talk that comes with every order",
+"type": "response"
 },
 "9": {
-"character": "Lam Anh",
+"character": "Thanh Mai",
 "character_replacements": Array[Dictionary]([]),
 "id": "9",
 "next_id": "10",
+"parent_id": "6",
 "tags": PackedStringArray(),
-"text": "But I barely survive the small talk that comes with every order.",
+"text": "Considering your personality, I’m not surprised",
 "text_replacements": Array[Dictionary]([]),
-"translation_key": "But I barely survive the small talk that comes with every order.",
+"translation_key": "Considering your personality, I’m not surprised",
 "type": "dialogue"
 }
 }

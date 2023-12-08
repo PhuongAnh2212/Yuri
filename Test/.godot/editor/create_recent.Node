@@ -1,3 +1,5 @@
+CollisionShape2D
+Area2D
 TileMap
 Node
 AudioStreamPlayer2D
@@ -8,7 +10,6 @@ VBoxContainer
 MarginContainer
 TextureRect
 Control
-CollisionShape2D
 AnimatedSprite2D
 CharacterBody2D
 AnimationPlayer

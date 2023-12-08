@@ -1,1 +1,9 @@
 res://scenes/world.tscn
+res://title screen/title_screen.tscn
+res://npc/bartender.tscn
+res://dream_room/dream_room.tscn
+res://global.gd
+res://player/player.gd
+res://player/player.tscn
+res://npc/thanh_mai.tscn
+res://thanh_mai.gd
