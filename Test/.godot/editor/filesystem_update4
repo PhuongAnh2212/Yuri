@@ -13,3 +13,4 @@ res://test_dialogue.tscn
 res://test_dialogue.gd
 res://dialogue balloon/small_balloon.tscn
 res://npc/bartender.gd
+res://state.gd

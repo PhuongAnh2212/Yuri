@@ -1,5 +1,6 @@
-[gd_scene load_steps=9 format=3 uid="uid://c28cx1wf2x81y"]
+[gd_scene load_steps=10 format=3 uid="uid://c28cx1wf2x81y"]
 
+[ext_resource type="Script" path="res://npc/bartender.gd" id="1_lblr8"]
 [ext_resource type="Texture2D" uid="uid://bo0jauihblni4" path="res://arts/bartender-sprite.png" id="1_uquhr"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_x1mhq"]
@@ -50,6 +51,7 @@ radius = 24.0
 height = 96.0
 
 [node name="bartender" type="CharacterBody2D"]
+script = ExtResource("1_lblr8")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_rgmv1")

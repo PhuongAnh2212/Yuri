@@ -18,15 +18,15 @@ lines = {
 "type": "title"
 },
 "10": {
-"character": "",
+"character": "Angelo",
 "character_replacements": Array[Dictionary]([]),
 "id": "10",
 "next_id": "11",
-"parent_id": "9",
+"parent_id": "8",
 "tags": PackedStringArray(),
-"text": "Lan Anh told Angelo about the promise.",
+"text": "It’s been a while.",
 "text_replacements": Array[Dictionary]([]),
-"translation_key": "Lan Anh told Angelo about the promise.",
+"translation_key": "It’s been a while.",
 "type": "dialogue"
 },
 "11": {
@@ -34,11 +34,11 @@ lines = {
 "character_replacements": Array[Dictionary]([]),
 "id": "11",
 "next_id": "12",
-"parent_id": "9",
+"parent_id": "8",
 "tags": PackedStringArray(),
-"text": "It’s been a while.",
+"text": "The best you can do now is to apologize to her.",
 "text_replacements": Array[Dictionary]([]),
-"translation_key": "It’s been a while.",
+"translation_key": "The best you can do now is to apologize to her.",
 "type": "dialogue"
 },
 "12": {
@@ -46,11 +46,11 @@ lines = {
 "character_replacements": Array[Dictionary]([]),
 "id": "12",
 "next_id": "13",
-"parent_id": "9",
+"parent_id": "8",
 "tags": PackedStringArray(),
-"text": "The best you can do now is to apologize to her.",
+"text": "You can’t expect them to forgive you.",
 "text_replacements": Array[Dictionary]([]),
-"translation_key": "The best you can do now is to apologize to her.",
+"translation_key": "You can’t expect them to forgive you.",
 "type": "dialogue"
 },
 "13": {
@@ -58,106 +58,106 @@ lines = {
 "character_replacements": Array[Dictionary]([]),
 "id": "13",
 "next_id": "14",
-"parent_id": "9",
-"tags": PackedStringArray(),
-"text": "You can’t expect them to forgive you.",
-"text_replacements": Array[Dictionary]([]),
-"translation_key": "You can’t expect them to forgive you.",
-"type": "dialogue"
-},
-"14": {
-"character": "Angelo",
-"character_replacements": Array[Dictionary]([]),
-"id": "14",
-"next_id": "15",
-"parent_id": "9",
+"parent_id": "8",
 "tags": PackedStringArray(),
 "text": "But it’s the best you can do.",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "But it’s the best you can do.",
 "type": "dialogue"
 },
-"15": {
+"14": {
 "character": "",
 "character_replacements": Array[Dictionary]([]),
-"id": "15",
-"next_id": "16",
-"next_id_after": "19",
-"parent_id": "9",
-"responses": PackedStringArray("15", "17"),
+"id": "14",
+"next_id": "15",
+"next_id_after": "44",
+"parent_id": "8",
+"responses": PackedStringArray("14", "16"),
 "tags": PackedStringArray(),
 "text": "I’ll have to try my best then.",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "I’ll have to try my best then.",
 "type": "response"
 },
-"16": {
+"15": {
 "character": "Angelo",
 "character_replacements": Array[Dictionary]([]),
-"id": "16",
-"next_id": "19",
-"parent_id": "15",
+"id": "15",
+"next_id": "44",
+"parent_id": "14",
 "tags": PackedStringArray(),
 "text": "That’s the spirit.",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "That’s the spirit.",
 "type": "dialogue"
 },
-"17": {
+"16": {
 "character": "",
 "character_replacements": Array[Dictionary]([]),
-"id": "17",
-"next_id": "18",
-"next_id_after": "19",
-"parent_id": "9",
+"id": "16",
+"next_id": "17",
+"next_id_after": "44",
+"parent_id": "8",
 "tags": PackedStringArray(),
 "text": "Can’t be the same person I was 10 years ago.",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "Can’t be the same person I was 10 years ago.",
 "type": "response"
 },
-"18": {
+"17": {
 "character": "Angelo",
 "character_replacements": Array[Dictionary]([]),
-"id": "18",
-"next_id": "19",
-"parent_id": "17",
+"id": "17",
+"next_id": "18",
+"parent_id": "16",
 "tags": PackedStringArray(),
 "text": "That’s the spirit.",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "That’s the spirit.",
 "type": "dialogue"
 },
-"19": {
-"id": "19",
+"18": {
+"id": "18",
 "is_snippet": false,
 "next_id": "end",
-"parent_id": "9",
+"parent_id": "16",
 "type": "goto"
 },
-"20": {
+"19": {
 "character": "",
 "character_replacements": Array[Dictionary]([]),
-"id": "20",
-"next_id": "21",
-"next_id_after": "46",
-"parent_id": "5",
+"id": "19",
+"next_id": "20",
+"next_id_after": "44",
+"parent_id": "4",
 "tags": PackedStringArray(),
 "text": "I’ve found out the problem.",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "I’ve found out the problem.",
 "type": "response"
 },
-"21": {
+"20": {
 "character": "",
 "character_replacements": Array[Dictionary]([]),
-"id": "21",
-"next_id": "22",
-"parent_id": "20",
+"id": "20",
+"next_id": "21",
+"parent_id": "19",
 "tags": PackedStringArray(),
 "text": "Lan Anh told Angelo about the promise.",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "Lan Anh told Angelo about the promise.",
+"type": "dialogue"
+},
+"21": {
+"character": "Angelo",
+"character_replacements": Array[Dictionary]([]),
+"id": "21",
+"next_id": "22",
+"parent_id": "19",
+"tags": PackedStringArray(),
+"text": "It’s been a while.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "It’s been a while.",
 "type": "dialogue"
 },
 "22": {
@@ -165,11 +165,11 @@ lines = {
 "character_replacements": Array[Dictionary]([]),
 "id": "22",
 "next_id": "23",
-"parent_id": "20",
+"parent_id": "19",
 "tags": PackedStringArray(),
-"text": "It’s been a while.",
+"text": "The best you can do now is to apologize to her.",
 "text_replacements": Array[Dictionary]([]),
-"translation_key": "It’s been a while.",
+"translation_key": "The best you can do now is to apologize to her.",
 "type": "dialogue"
 },
 "23": {
@@ -177,11 +177,11 @@ lines = {
 "character_replacements": Array[Dictionary]([]),
 "id": "23",
 "next_id": "24",
-"parent_id": "20",
+"parent_id": "19",
 "tags": PackedStringArray(),
-"text": "The best you can do now is to apologize to her.",
+"text": "You can’t expect them to forgive you.",
 "text_replacements": Array[Dictionary]([]),
-"translation_key": "The best you can do now is to apologize to her.",
+"translation_key": "You can’t expect them to forgive you.",
 "type": "dialogue"
 },
 "24": {
@@ -189,106 +189,106 @@ lines = {
 "character_replacements": Array[Dictionary]([]),
 "id": "24",
 "next_id": "25",
-"parent_id": "20",
-"tags": PackedStringArray(),
-"text": "You can’t expect them to forgive you.",
-"text_replacements": Array[Dictionary]([]),
-"translation_key": "You can’t expect them to forgive you.",
-"type": "dialogue"
-},
-"25": {
-"character": "Angelo",
-"character_replacements": Array[Dictionary]([]),
-"id": "25",
-"next_id": "26",
-"parent_id": "20",
+"parent_id": "19",
 "tags": PackedStringArray(),
 "text": "But it’s the best you can do.",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "But it’s the best you can do.",
 "type": "dialogue"
 },
-"26": {
+"25": {
 "character": "",
 "character_replacements": Array[Dictionary]([]),
-"id": "26",
-"next_id": "27",
-"next_id_after": "30",
-"parent_id": "20",
-"responses": PackedStringArray("26", "28"),
+"id": "25",
+"next_id": "26",
+"next_id_after": "29",
+"parent_id": "19",
+"responses": PackedStringArray("25", "27"),
 "tags": PackedStringArray(),
 "text": "I’ll have to try my best then.",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "I’ll have to try my best then.",
 "type": "response"
 },
-"27": {
+"26": {
 "character": "Angelo",
 "character_replacements": Array[Dictionary]([]),
-"id": "27",
-"next_id": "30",
-"parent_id": "26",
+"id": "26",
+"next_id": "29",
+"parent_id": "25",
 "tags": PackedStringArray(),
 "text": "That’s the spirit.",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "That’s the spirit.",
 "type": "dialogue"
 },
-"28": {
+"27": {
 "character": "",
 "character_replacements": Array[Dictionary]([]),
-"id": "28",
-"next_id": "29",
-"next_id_after": "30",
-"parent_id": "20",
+"id": "27",
+"next_id": "28",
+"next_id_after": "29",
+"parent_id": "19",
 "tags": PackedStringArray(),
 "text": "Can’t be the same person I was 10 years ago.",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "Can’t be the same person I was 10 years ago.",
 "type": "response"
 },
-"29": {
+"28": {
 "character": "Angelo",
 "character_replacements": Array[Dictionary]([]),
-"id": "29",
-"next_id": "30",
-"parent_id": "28",
+"id": "28",
+"next_id": "29",
+"parent_id": "27",
 "tags": PackedStringArray(),
 "text": "That’s the spirit.",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "That’s the spirit.",
 "type": "dialogue"
 },
-"30": {
-"id": "30",
+"29": {
+"id": "29",
 "is_snippet": false,
 "next_id": "end",
-"parent_id": "20",
+"parent_id": "19",
 "type": "goto"
 },
-"31": {
+"30": {
 "character": "",
 "character_replacements": Array[Dictionary]([]),
-"id": "31",
-"next_id": "32",
-"next_id_after": "46",
-"parent_id": "5",
+"id": "30",
+"next_id": "31",
+"next_id_after": "44",
+"parent_id": "4",
 "tags": PackedStringArray(),
 "text": "But I’m not sure how I can fix it.",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "But I’m not sure how I can fix it.",
 "type": "response"
 },
-"32": {
+"31": {
 "character": "",
 "character_replacements": Array[Dictionary]([]),
-"id": "32",
-"next_id": "33",
-"parent_id": "31",
+"id": "31",
+"next_id": "32",
+"parent_id": "30",
 "tags": PackedStringArray(),
 "text": "Lan Anh told Angelo about the promise.",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "Lan Anh told Angelo about the promise.",
+"type": "dialogue"
+},
+"32": {
+"character": "Angelo",
+"character_replacements": Array[Dictionary]([]),
+"id": "32",
+"next_id": "33",
+"parent_id": "30",
+"tags": PackedStringArray(),
+"text": "It’s been a while.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "It’s been a while.",
 "type": "dialogue"
 },
 "33": {
@@ -296,11 +296,11 @@ lines = {
 "character_replacements": Array[Dictionary]([]),
 "id": "33",
 "next_id": "34",
-"parent_id": "31",
+"parent_id": "30",
 "tags": PackedStringArray(),
-"text": "It’s been a while.",
+"text": "The best you can do now is to apologize to her.",
 "text_replacements": Array[Dictionary]([]),
-"translation_key": "It’s been a while.",
+"translation_key": "The best you can do now is to apologize to her.",
 "type": "dialogue"
 },
 "34": {
@@ -308,11 +308,11 @@ lines = {
 "character_replacements": Array[Dictionary]([]),
 "id": "34",
 "next_id": "35",
-"parent_id": "31",
+"parent_id": "30",
 "tags": PackedStringArray(),
-"text": "The best you can do now is to apologize to her.",
+"text": "You can’t expect them to forgive you.",
 "text_replacements": Array[Dictionary]([]),
-"translation_key": "The best you can do now is to apologize to her.",
+"translation_key": "You can’t expect them to forgive you.",
 "type": "dialogue"
 },
 "35": {
@@ -320,63 +320,63 @@ lines = {
 "character_replacements": Array[Dictionary]([]),
 "id": "35",
 "next_id": "36",
-"parent_id": "31",
-"tags": PackedStringArray(),
-"text": "You can’t expect them to forgive you.",
-"text_replacements": Array[Dictionary]([]),
-"translation_key": "You can’t expect them to forgive you.",
-"type": "dialogue"
-},
-"36": {
-"character": "Angelo",
-"character_replacements": Array[Dictionary]([]),
-"id": "36",
-"next_id": "37",
-"parent_id": "31",
+"parent_id": "30",
 "tags": PackedStringArray(),
 "text": "But it’s the best you can do.",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "But it’s the best you can do.",
 "type": "dialogue"
 },
-"37": {
+"36": {
 "character": "",
 "character_replacements": Array[Dictionary]([]),
-"id": "37",
-"next_id": "38",
-"next_id_after": "41",
-"parent_id": "31",
-"responses": PackedStringArray("37", "39"),
+"id": "36",
+"next_id": "37",
+"next_id_after": "40",
+"parent_id": "30",
+"responses": PackedStringArray("36", "38"),
 "tags": PackedStringArray(),
 "text": "I’ll have to try my best then.",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "I’ll have to try my best then.",
 "type": "response"
 },
-"38": {
+"37": {
 "character": "Angelo",
 "character_replacements": Array[Dictionary]([]),
-"id": "38",
-"next_id": "41",
-"parent_id": "37",
+"id": "37",
+"next_id": "40",
+"parent_id": "36",
 "tags": PackedStringArray(),
 "text": "That’s the spirit.",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "That’s the spirit.",
 "type": "dialogue"
 },
-"39": {
+"38": {
 "character": "",
 "character_replacements": Array[Dictionary]([]),
-"id": "39",
-"next_id": "40",
-"next_id_after": "41",
-"parent_id": "31",
+"id": "38",
+"next_id": "39",
+"next_id_after": "40",
+"parent_id": "30",
 "tags": PackedStringArray(),
 "text": "Can’t be the same person I was 10 years ago.",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "Can’t be the same person I was 10 years ago.",
 "type": "response"
+},
+"39": {
+"character": "Angelo",
+"character_replacements": Array[Dictionary]([]),
+"id": "39",
+"next_id": "40",
+"parent_id": "38",
+"tags": PackedStringArray(),
+"text": "That’s the spirit.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "That’s the spirit.",
+"type": "dialogue"
 },
 "4": {
 "condition": {
@@ -399,100 +399,65 @@ lines = {
 }])
 },
 "id": "4",
-"next_conditional_id": "46",
+"next_conditional_id": "41",
 "next_id": "5",
-"next_id_after": "46",
+"next_id_after": "44",
 "type": "condition"
 },
 "40": {
-"character": "Angelo",
-"character_replacements": Array[Dictionary]([]),
 "id": "40",
-"next_id": "41",
-"parent_id": "39",
-"tags": PackedStringArray(),
-"text": "That’s the spirit.",
-"text_replacements": Array[Dictionary]([]),
-"translation_key": "That’s the spirit.",
-"type": "dialogue"
+"is_snippet": false,
+"next_id": "end",
+"parent_id": "30",
+"type": "goto"
 },
 "41": {
 "id": "41",
-"is_snippet": false,
-"next_id": "end",
-"parent_id": "31",
-"type": "goto"
-},
-"42": {
-"id": "42",
-"next_conditional_id": "46",
-"next_id": "43",
-"next_id_after": "46",
-"parent_id": "4",
+"next_conditional_id": "44",
+"next_id": "42",
+"next_id_after": "44",
 "type": "condition"
 },
-"43": {
+"42": {
 "character": "Angelo",
 "character_replacements": Array[Dictionary]([]),
-"id": "43",
+"id": "42",
 "next_id": "44",
-"parent_id": "42",
+"parent_id": "41",
 "tags": PackedStringArray(),
-"text": "St",
+"text": "How are you today?",
 "text_replacements": Array[Dictionary]([]),
-"translation_key": "St",
+"translation_key": "How are you today?",
 "type": "dialogue"
 },
 "44": {
 "id": "44",
 "is_snippet": false,
 "next_id": "end",
-"parent_id": "42",
-"type": "goto"
-},
-"46": {
-"id": "46",
-"is_snippet": false,
-"next_id": "end",
 "type": "goto"
 },
 "5": {
-"condition": {
-"expression": Array[Dictionary]([{
-"type": "variable",
-"value": "global"
-}, {
-"type": "dot"
-}, {
-"type": "variable",
-"value": "met_bartender"
-}, {
-"type": "comparison",
-"value": "=="
-}, {
-"type": "variable",
-"value": "false"
-}, {
-"type": "colon"
-}])
-},
+"character": "Angelo",
+"character_replacements": Array[Dictionary]([]),
 "id": "5",
-"next_conditional_id": "42",
 "next_id": "6",
-"next_id_after": "46",
 "parent_id": "4",
-"type": "condition"
+"tags": PackedStringArray(),
+"text": "Thank you, Lam Anh.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Thank you, Lam Anh.",
+"type": "dialogue"
 },
 "6": {
 "character": "Angelo",
 "character_replacements": Array[Dictionary]([]),
 "id": "6",
 "next_id": "7",
-"parent_id": "5",
+"parent_id": "4",
 "tags": PackedStringArray(),
-"text": "Thank you, Lam Anh.",
+"text": "You’re still looking down.",
 "text_replacements": Array[Dictionary]([]),
-"translation_key": "Thank you, Lam Anh.",
+"translation_key": "You’re still looking down.",
 "type": "dialogue"
 },
 "7": {
@@ -500,38 +465,38 @@ lines = {
 "character_replacements": Array[Dictionary]([]),
 "id": "7",
 "next_id": "8",
-"parent_id": "5",
-"tags": PackedStringArray(),
-"text": "You’re still looking down.",
-"text_replacements": Array[Dictionary]([]),
-"translation_key": "You’re still looking down.",
-"type": "dialogue"
-},
-"8": {
-"character": "Angelo",
-"character_replacements": Array[Dictionary]([]),
-"id": "8",
-"next_id": "9",
-"parent_id": "5",
+"parent_id": "4",
 "tags": PackedStringArray(),
 "text": "Still the problem last time?",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "Still the problem last time?",
 "type": "dialogue"
 },
-"9": {
+"8": {
 "character": "",
 "character_replacements": Array[Dictionary]([]),
-"id": "9",
-"next_id": "10",
-"next_id_after": "46",
-"parent_id": "5",
-"responses": PackedStringArray("9", "20", "31"),
+"id": "8",
+"next_id": "9",
+"next_id_after": "44",
+"parent_id": "4",
+"responses": PackedStringArray("8", "19", "30"),
 "tags": PackedStringArray(),
 "text": "Not exactly.",
 "text_replacements": Array[Dictionary]([]),
 "translation_key": "Not exactly.",
 "type": "response"
+},
+"9": {
+"character": "",
+"character_replacements": Array[Dictionary]([]),
+"id": "9",
+"next_id": "10",
+"parent_id": "8",
+"tags": PackedStringArray(),
+"text": "Lan Anh told Angelo about the promise.",
+"text_replacements": Array[Dictionary]([]),
+"translation_key": "Lan Anh told Angelo about the promise.",
+"type": "dialogue"
 }
 }
 metadata/dialogue_manager_version = "2.30.0"
